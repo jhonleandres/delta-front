@@ -72,7 +72,7 @@ const Cadastro: NextPage = () => {
           </div>
 
           <div className="flex flex-wrap -mx-3 mb-1">
-            <div className="w-full md:w-3/5 px-4 md:mb-0">
+            <div className="w-full md:w-1/2 px-4 md:mb-0">
               <Input
                 label="CPF"
                 name="cpf"
@@ -94,7 +94,7 @@ const Cadastro: NextPage = () => {
           </div>
 
           <div className="flex flex-wrap -mx-3 mb-1">
-            <div className="w-full md:w-3/5 px-4 md:mb-0">
+            <div className="w-full md:w-1/2 px-4 md:mb-0">
               <Input
                 label="Telefone Movel"
                 name="foneCelular"
@@ -151,7 +151,7 @@ const Cadastro: NextPage = () => {
                 onChange={({ target }) => setCep(target.value)}
               />
             </div>
-            <div className="w-full md:w-3/5 px-2 md:mb-0">
+            <div className="w-full md:w-1/2 px-2 md:mb-0">
               <Input
                 label="Rua"
                 name="logradouro"
@@ -172,7 +172,7 @@ const Cadastro: NextPage = () => {
                 onChange={({ target }) => setNumero(target.value)}
               />
             </div>
-            <div className="w-full md:w-3/5 px-2 md:mb-0">
+            <div className="w-full md:w-1/2 px-2 md:mb-0">
               <Input
                 label="Bairro"
                 name="bairro"
@@ -184,7 +184,7 @@ const Cadastro: NextPage = () => {
           </div>
 
           <div className="flex flex-wrap -mx-3 mb-1">
-            <div className="w-full md:w-3/5 px-4 md:mb-0">
+            <div className="w-full md:w-1/2 px-4 md:mb-0">
               <Input
                 label="Cidade"
                 name="cidade"
